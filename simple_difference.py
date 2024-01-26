@@ -14,3 +14,12 @@ if(BMI>0):
 		print("you are overweight")
 	else: print("you are severely overweight")
 else:("enter valid details")
+
+def generate_password(length):
+    """This function generates a random password
+    of a given length using a combination of
+    uppercase letters, lowercase letters,
+    digits, and special characters"""
+    
+    # Define a string containing all possible characters
+    all_chars = string.ascii_letters + string.digits + string.punctuation
