@@ -1,6 +1,10 @@
 Height=float(input("Enter your height in centimeters: "))
 Weight=float(input("Enter your Weight in Kg: "))
+<<<<<<< HEAD
 Height = Height/100 Sample to demonstrate the differences between OSes
+=======
+Height = Height/100-make a little update
+>>>>>>> 78911bd79a1062ac3ecf57310788de962764ebb8
 BMI=Weight/(Height*Height)
 print("your Body Mass Index is: ",BMI)
 if(BMI>0):
