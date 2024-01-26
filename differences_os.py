@@ -6,6 +6,7 @@ alarm_minute=alarm_time[3:5]
 alarm_seconds=alarm_time[6:8]
 alarm_period = alarm_time[9:11].upper()
 print("Setting up alarm..")
+print("Setting the alarms up")
 while True:
     now = datetime.now()
     current_hour = now.strftime("%I")
@@ -19,3 +20,4 @@ while True:
                     print("Wake Up!")
                     playsound('audio.mp3')
                     break
+# allow for changes                
